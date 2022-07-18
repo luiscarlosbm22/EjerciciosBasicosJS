@@ -12,7 +12,7 @@
 <body>
     <div class="container">
         <div class="row">
-            <form class="" action="">
+            <form class="" action="javascript:calcularParesImpares();">
                 <div class="form-group ">
                   <label for="exampleInputEmail1">Ingrese Numero</label>
                   <input type="text" class="form-control" id="numero_c" name="numero_c" aria-describedby="emailHelp" placeholder="Ingrese un numero">
@@ -20,7 +20,7 @@
                 </div>
                 <div class="form-group">
                   <label for="exampleInputPassword1">Resultado Pares</label>
-                  <input type="text" class="form-control" id="cantP" dname="cantP" placeholder="resultado">
+                  <input type="text" class="form-control" id="cantP" name="cantP" placeholder="resultado">
                 </div>
                 <div class="form-group">
                     <label for="exampleInputPassword1">Resultado Impares</label>
@@ -29,8 +29,9 @@
                 <div class="form-check">
                   
                   
-                </div>
-                <a href="javascript:calcularParesImpares();"  class="btn btn-primary"><span type="submit" id="btn_calcular">Calcular</span> </a>
+                </div> 
+                <!-- <a href="javascript:calcularParesImpares();"  value="" class="btn btn-primary"><span type="submit" id="btn_calcular">Calcular</span> </a> -->
+                <button type="submit" class="btn btn-primary">Calcular</button>
               </form>
 
         </div>

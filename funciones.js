@@ -1,8 +1,8 @@
 function calcularParesImpares(){
     var cantidad=0, cantP=0, cantI=0, terminar=0, acum=0;
 
-    var romper=new Boolean (true);
-    cantidad = document.getElementsById('numero_c').value;
+    var romper= new Boolean (true);
+    cantidad = document.getElementById('numero_c').value;
 
     while(romper){
         for(var i=1; i<=cantidad; i++){
