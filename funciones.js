@@ -29,8 +29,8 @@ function calcularParesImpares(){
 
 }
 function calcularPromedioNegPos(){
-    let contNeg=0, cantPos=0, term=0;
-    let promPos, promNeg=0;
+    let cantNeg=0, cantPos=0, term=0;
+    let promPos=0, promNeg=0;
     let Numero=0;
     let numI=0; 
 
@@ -40,13 +40,13 @@ function calcularPromedioNegPos(){
 
     while(romp){
 
-        for(let i=1; 1<=Numero; i++){
-            numI = parseFloat(prompt("Ingrese Nmumero"));
+        for(let i=1; i<=Numero; i++){
+            numI = parseFloat( prompt("Ingrese Nmumero"));
             if(numI>0){
                 cantPos++;
                 promPos=promPos+numI;
             }
-            if(numI>0){
+            if(numI<0){
                 cantNeg++;
                 promNeg=promNeg+numI;
             }
@@ -70,8 +70,8 @@ function calcularPromedioNegPos(){
 
     }
     document.getElementById('promPos').value=promPos;
-    console-log(promPos);
-    document.getElementById('promNeg').value=promBeg;
+    console.log(promPos);
+    document.getElementById('promNeg').value=promNeg;
     console.log(promNeg);
 
 }
