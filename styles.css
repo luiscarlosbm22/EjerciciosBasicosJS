@@ -1,0 +1,6 @@
+.container{
+    display: flex;
+}
+.row{
+    padding: 20px;
+}

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
@@ -13,6 +14,7 @@
 
             <form action="javascript:calcularParesImpares();">
                 <div class="form-group">
+                  <h3>Ejercicio 1</h3>
                   <label for="exampleInputEmail1">Ingrese Numero</label>
                   <input type="text" class="form-control" id="numero_c" aria-describedby="emailHelp" placeholder="Ingrese cantidad de numeros ">
                   <small id="emailHelp" class="form-text text-muted">Ingrese datos correctos solo numeros</small>
@@ -32,6 +34,30 @@
               </form>
 
         </div>
+        <div class="row col-md-3">
+
+          <form action="javascript:calcularParesImpares();">
+              <div class="form-group">
+                <h3>Ejercicio 2</h3>
+                <label for="exampleInputEmail1">Ingrese cantidad de numeros a calcular</label>
+                <input type="text" class="form-control" id="N_numero" aria-describedby="emailHelp" placeholder="Ingrese cantidad de numeros ">
+                <small id="emailHelp" class="form-text text-muted">Ingrese datos correctos solo numeros</small>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Promedio de numeros Positivos</label>
+                <input type="text" class="form-control" id="promPos" placeholder="prom positivos">
+              </div>
+              <div class="form-group">
+                  <label for="exampleInputPassword1">Promedio de numeros negativcos</label>
+                  <input type="text" class="form-control" id="promNeg" placeholder="prom negativos">
+                </div>
+              <div class="form-check">
+                
+              </div>
+              <button  type="submit" class="btn btn-primary">Calcular</button>
+            </form>
+
+      </div>
 
     </div>
 </body>
